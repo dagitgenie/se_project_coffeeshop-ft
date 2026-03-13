@@ -62,7 +62,6 @@
       </header>
 
       <main class="content">
-        <!-- Add the recipes section here -->
         <section class="recipes">
           <h2 class="recipes__title">Recipes</h2>
           <p class="recipes__subtitle">
@@ -116,33 +115,41 @@
         </section>
         <section class="reservation">
           <h2 class="reservation__title">Book a table</h2>
-          <form action="" class="form reservation__form">
+          <form class="form reservation__form">
             <fieldset class="form__fieldset">
-              <label for="" class="form__label">
+              <label for="name" class="form__label">
                 Name *
                 <input
+                  id="name"
                   type="text"
                   class="form__input"
                   placeholder="Name Surname"
                   required
                 />
               </label>
-              <label for="" class="form__label">
+              <label for="guests" class="form__label">
                 Number of guests *
                 <input
+                  id="guests"
                   type="number"
                   class="form__input"
                   placeholder="1-8"
                   required
                 />
               </label>
-              <label for="" class="form__label">
+              <label for="date" class="form__label">
                 Date and time *
-                <input type="datetime-local" class="form__input" required />
+                <input
+                  id="date"
+                  type="datetime-local"
+                  class="form__input"
+                  required
+                />
               </label>
-              <label for="" class="form__label">
+              <label for="email" class="form__label">
                 Your email *
                 <input
+                  id="email"
                   type="email"
                   class="form__input"
                   placeholder="email@email.com"
