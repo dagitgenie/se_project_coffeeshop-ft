@@ -13,4 +13,8 @@ This is the second project of the fulltime Software Engineering program at Tripl
 
 ## Plan on improving the project
 
-Add your ideas here :)
+- Improve class naming
+- Improve video and image loading times
+- Make sure layout works on smaller screens
+- Add Javascript to improve overall design
+- Add page color transitions
