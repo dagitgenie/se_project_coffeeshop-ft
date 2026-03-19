@@ -51,6 +51,10 @@
   text-decoration: none;
 }
 
+.footer__social-link:hover {
+  opacity: 0.7;
+}
+
 .footer__copyright {
   margin: 108px 0 0;
 }

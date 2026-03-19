@@ -21,7 +21,7 @@
   padding: 0;
 }
 
-.nav__links:hover {
+.nav__link:hover {
   opacity: 50%;
   transition: opacity 0.5s;
 }

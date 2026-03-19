@@ -16,15 +16,18 @@
   padding: 15px 20px;
   margin-top: 8px;
   box-sizing: border-box;
-  border-radius: 1px solid #838383;
-  font-family: Inter;
+  border: 1px solid #838383;
+  font-family:
+    Inter Arial,
+    Helvetica,
+    sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
   color: #000;
   border-radius: 10px;
-  background-color: #d9e7ff;
+  background-color: #fff;
 }
 
 .form__input::placeholder {
@@ -62,8 +65,15 @@
   transition: background-color 0.5s;
 }
 
+.form__checkbox {
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+}
+
 .form__label_type_checkbox {
   margin: 0;
   display: flex;
   justify-content: center;
+  gap: 12px;
 }

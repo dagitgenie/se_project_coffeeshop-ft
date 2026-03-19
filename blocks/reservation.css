@@ -1,14 +1,14 @@
 .reservation {
-  padding: 100px 0 215px;
+  padding: 120px 0 215px;
   background-color: #d9e7ff;
-  background-image: url(/se_project_coffeeshop-ft/images/background_reservation.svg);
+  background-image: url(../images/background_reservation.svg);
   font-family: Inter, Arial, sans-serif;
 }
 
 .reservation__title {
   text-align: center;
   margin: 0 0 80px;
-  font-family: Inter;
+  font-family: Inter, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
