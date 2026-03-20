@@ -13,7 +13,7 @@
   max-width: 251px;
   margin: 0;
   font-family:
-    "Inter" Arial,
+    "Inter", Arial,
     Helvetica,
     sans-serif;
   font-style: normal;
@@ -33,7 +33,7 @@
 
 .about__paragraph {
   margin: 0;
-  font-family: "Noto Serif" serif;
+  font-family: "Noto Serif", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
